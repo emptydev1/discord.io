@@ -1,0 +1,32 @@
+{
+  "name": "discordjs",
+  "version": "1.0.0",
+  "description": "A Node.js Discord Library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptydev1/discord.js.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "emptydev1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emptydev1/discord.js/issues"
+  },
+  "homepage": "https://github.com/emptydev1/discord.js#readme",
+  "dependencies": {
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {}
+}
