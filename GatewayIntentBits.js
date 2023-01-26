@@ -1,5 +1,5 @@
 const { GatewayIntents } = require("../util/Gateway");
-const Bitfield = require("../util/Bitfield");
+const Bitfield = require("./Bitfield");
 
 /**
  * Class useful for Gateway Intents 
