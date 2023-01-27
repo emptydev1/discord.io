@@ -10,13 +10,12 @@
 
 <hr>
 
+# How to use?
 **Instalation**
 ```sh-session
 npm install discord.js
 yarn add discord.js
 ```
-
-# How to use?
 **See the examples below:**
 ```js
 const { Client, MessageEmbed } = require("djs");
@@ -48,3 +47,7 @@ client.on('message_create', message => {
 // Connect the client
 client.connect()
 ```
+<hr>
+
+# Contributors
+**[Empty™#4646](https://discord.com/users/1036018691562803260)**
