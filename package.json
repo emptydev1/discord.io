@@ -2,18 +2,17 @@
   "name": "discordjs",
   "version": "1.0.0",
   "description": "A Node.js Discord Library",
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "lib/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emptydev1/discord.js.git"
   },
   "keywords": [
-    "discord",
-    "discordapp",
-    "wrapper"
+    "Discord",
+    "bot",
+    "wrapper",
+    "discord.js"
   ],
   "author": "emptydev1",
   "license": "ISC",
@@ -24,11 +23,5 @@
   "dependencies": {
     "ws": "^8.12.0"
   },
-  "devDependencies": {
-    "@types/node": "^16.11.7", 
-    "@types/ws": "^8.2.0", 
-    "@typescript-eslint/eslint-plugin": "^4.33.0", 
-    "@typescript-eslint/parser": "^4.33.0", 
-    "typescript": "^4.4.4"
-  }
+  "devDependencies": {}
 }
