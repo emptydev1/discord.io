@@ -33,13 +33,8 @@ client.on('ready', () => {
 
 client.on('message_create', message => {
     if (message.content.toLowerCase().startsWith('!ping')) {
-        const embed = new MessageEmbed()
-            .setDescription(`My current latency is ${client.ws.ping} milliseconds!`)
-            .setColor("#ff0000")
-
         client.createMessage(message.channel.id, {
-            content: "🏓 Pong!",
-            embeds: [embed]
+            content: "🏓 Pong!"
         })
     }
 })
