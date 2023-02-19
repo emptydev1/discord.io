@@ -1,4 +1,4 @@
-# Discord.js
+# Discordia
 
 <p>A Node.js Discord library</p>
 
@@ -13,12 +13,12 @@
 # How to use?
 **Instalation**
 ```sh-session
-npm install discord.js
-yarn add discord.js
+npm install discordia
+yarn add discordia
 ```
-**See the examples below:**
+**Basic example of how to create a new client:**
 ```js
-const { Client, MessageEmbed, Events } = require("djs");
+const { Client, MessageEmbed, Events } = require("discordia");
 const client = new Client("Your bot token", {
     intents: [
         "guildMessages", "guildMembers", "guilds"
@@ -28,16 +28,16 @@ const client = new Client("Your bot token", {
 // Events:
 client.on(Events.Ready, () => {
     console.log(`Ready on ${client.user.tag}!`);
-})
+});
 
 client.on(Events.MessageCreate, message => {
     if (message.content.toLowerCase().startsWith('!ping')) {
-        client.createMessage(message.channel.id, "🏓 Pong!")
+        client.createMessage(message.channel.id, "🏓 Pong!");
     }
-})
+});
 
 // Connect the client
-client.run()
+client.run();
 ```
 <hr>
 
