@@ -18,7 +18,7 @@ yarn add discordia
 ```
 **Basic example of how to create a new client:**
 ```js
-const { Client, MessageEmbed, Events } = require("discordia");
+const { Client, MessageEmbed, Events } = require("discord.io");
 const client = new Client("Your bot token", {
     intents: [
         "guildMessages", "guildMembers", "guilds"
