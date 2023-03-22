@@ -1,4 +1,4 @@
-# Discordia
+# Discord.io
 
 <p>A Node.js Discord library</p>
 
